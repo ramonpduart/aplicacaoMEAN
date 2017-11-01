@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Curso de Mongodb Express Angular e Node",
+  "main": "loader.js",
+  "scripts": {
+    "dev": "nodemon",
+    "production": "pm2 start loader.js --name backend"
+  },
+  "author": "Ramon Pereira",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-query-int": "^2.0.0",
+    "jsonwebtoken": "^7.3.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.12.3",
+    "mongoose-paginate": "^5.0.3",
+    "node-restful": "^0.2.6",
+    "pm2": "^2.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
